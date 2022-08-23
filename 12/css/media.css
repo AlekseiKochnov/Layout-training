@@ -1,0 +1,936 @@
+@media (min-width: 2300px) {
+  .header__container {
+    max-width: calc(100% - 150px);
+  }
+
+  .hero__container {
+    max-width: calc(100% - 150px);
+    border-radius: 62px;
+  }
+
+  .aboutUs__container {
+    max-width: calc(100% - 150px);
+  }
+
+  .title {
+    font-size: calc(1em + 4vw);
+  }
+
+  .aboutUs__descr {
+    max-width: 70%;
+  }
+
+  .title-h3 {
+    font-size: calc(1em + 1vw);
+  }
+
+  .descr {
+    font-size: calc(1em + 1vw);
+    line-height: calc(1em + 1vw);
+  }
+
+  .project__container {
+    max-width: calc(100% - 150px);
+  }
+
+  .project__left {
+    min-width: calc(50% - 32px);
+    border-radius: 81px;
+  }
+
+  .project__right {
+    min-width: calc(50% - 32px);
+  }
+
+  .project__top-right {
+    max-width: 100%;
+  }
+
+  .project__descr-top {
+    width: 100%;
+  }
+
+  .project__top,
+  .project__buttom {
+    align-items: center;
+  }
+
+  .project__left-container {
+    justify-content: space-around;
+    border-radius: 81px;
+  }
+
+  .howWeWork__container {
+    max-width: calc(100% - 150px);
+  }
+
+  .howWeWork__container-left {
+    width: 100%;
+  }
+
+  .howWeWork__container-left {
+    margin-right: 0px;
+  }
+
+  .howWeWork__allConteiner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .howWeWork__descr {
+    max-width: 100%;
+  }
+
+  .howWeWork__btnTop {
+    font-size: 46px;
+  }
+
+  .howWeWork__title {
+    margin-bottom: 83px;
+  }
+
+  .frequentlyAskedQuestions__container {
+    max-width: calc(100% - 150px);
+  }
+
+  .frequentlyAskedQuestions__title {
+    margin-bottom: 61px;
+  }
+
+  .footer__container {
+    max-width: calc(100% - 150px);
+  }
+
+  .footer__centr,
+  .footer__left,
+  .footer__right {
+    width: 33%;
+  }
+
+  .footer__descr {
+    max-width: 100%;
+  }
+
+  .footer__link {
+    font-size: 36px;
+  }
+
+  .footer__input {
+    min-width: 94%;
+  }
+
+  .footer__textarea {
+    width: 94%;
+  }
+
+  .aboutUs__title {
+    margin-bottom: 48px;
+  }
+
+
+}
+
+@media (max-width: 1600px) {
+  .project__top {
+    align-items: center;
+  }
+
+  .project__top-left {
+    max-width: calc(30% - 20px);
+    /* overflow: hidden; */
+  }
+
+  .project__img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .project__top-right {
+    max-width: calc(70% - 20px);
+  }
+
+  .project__descr-top {
+    width: 100%;
+  }
+
+  .howWeWork__container {
+    max-width: calc(100% - 100px);
+    margin-bottom: 80px;
+  }
+
+  .howWeWork__allConteiner {
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .howWeWork__container-left,
+  .howWeWork__container-right {
+    max-width: calc(50% - 26px);
+    margin: 0;
+  }
+
+  .howWeWork__btnTop {
+    margin-bottom: 52px;
+  }
+
+  .howWeWork__btnTop:not(:last-child) {
+    margin-right: 82px;
+  }
+
+  .howWeWork__descr {
+    max-width: 450px;
+    margin-bottom: 22px;
+  }
+
+  .howWeWork__img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1366px) {
+  .header__nav {
+    margin-right: 64px;
+  }
+
+  .project__container {
+    flex-direction: column;
+    max-width: calc(100% - 100px);
+    margin-bottom: 83px;
+  }
+
+  .project__left {
+    margin-right: 0;
+    margin-bottom: 32px;
+    height: 640px;
+    max-width: 100%;
+  }
+
+  .project__right {
+    max-width: 100%;
+  }
+
+  .project__left-container {
+    justify-content: space-between;
+  }
+
+  .project__top {
+    padding-left: 75px;
+    padding-top: 63px;
+    padding-bottom: 60px;
+  }
+
+  .project__buttom {
+    padding-left: 75px;
+    padding-top: 63px;
+    padding-bottom: 60px;
+  }
+
+  .frequentlyAskedQuestions__container {
+    max-width: calc(100% - 100px);
+    margin-bottom: 75px;
+  }
+
+  .frequentlyAskedQuestions__descr {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    max-width: 756px;
+  }
+
+  .footer__container {
+    max-width: calc(100% - 100px);
+  }
+
+  .footer__centr {
+    max-width: 59%;
+  }
+
+  .footer__formAll {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .footer__input {
+    padding: 29px 0px 29px 24px;
+  }
+
+  .footer__textarea {
+    height: 150px;
+  }
+
+  .footer__btn {
+    padding: 20px 38px;
+    width: 243px;
+  }
+
+  .footer__right {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .footer__right {
+    display: none;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__burger {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background-color: var(--vhite);
+    color: var(--dark);
+  }
+
+  .header__burger-line {
+    position: absolute;
+    left: 50%;
+    width: 30px;
+    height: 3px;
+    background-color: currentColor;
+    transform: translate(-50%);
+  }
+
+  .header__burger-line:nth-child(1) {
+    top: 7px
+  }
+
+  .header__burger-line:nth-child(3) {
+    bottom: 10px;
+  }
+
+  .header__burger-line:nth-child(2) {
+    top: 47%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+
+  .header__menu {
+    align-items: center;
+    padding: 21px 45px;
+  }
+
+  .header__logo img {
+    width: 154px;
+  }
+
+  .header__container {
+    margin-bottom: 40px;
+  }
+
+  .hero__container {
+    max-width: calc(100% - 100px);
+    height: 668px;
+    margin-bottom: 36px;
+  }
+
+  .hero__descr {
+    padding: 160px 0 100px 77px;
+  }
+
+  .hero__headin {
+    max-width: 770px;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 73px;
+    margin-bottom: 16px;
+  }
+
+  .hero__title {
+    max-width: 660px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 60px;
+  }
+
+  .aboutUs__container {
+    max-width: calc(100% - 100px);
+    margin-bottom: 59px;
+  }
+
+  .howWeWork__container {
+    max-width: calc(100% - 100px);
+    margin-bottom: 80px;
+  }
+
+  .howWeWork__allConteiner {
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .howWeWork__container-left,
+  .howWeWork__container-right {
+    max-width: calc(50% - 26px);
+    margin: 0;
+  }
+
+  .howWeWork__btnTop {
+    margin-bottom: 52px;
+  }
+
+  .howWeWork__btnTop:not(:last-child) {
+    margin-right: 82px;
+  }
+
+  .howWeWork__descr {
+    max-width: 450px;
+    margin-bottom: 22px;
+  }
+
+  .howWeWork__img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .frequentlyAskedQuestions__container {
+    max-width: calc(100% - 100px);
+    margin-bottom: 75px;
+  }
+
+  .frequentlyAskedQuestions__descr {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    max-width: 756px;
+  }
+
+  .footer__container {
+    max-width: calc(100% - 100px);
+  }
+
+  .footer__centr {
+    max-width: 59%;
+  }
+
+  .footer__formAll {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .footer__input {
+    padding: 29px 0px 29px 24px;
+  }
+
+  .footer__textarea {
+    height: 150px;
+  }
+
+  .footer__btn {
+    padding: 20px 38px;
+    width: 243px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .project__top,
+  .project__buttom {
+    justify-content: space-around;
+    padding: 35px 20px;
+  }
+
+  .hero__descr {
+    padding: 167px 0 100px 77px;
+  }
+
+  .project__title,
+  .project__descr-top {
+    width: 99%;
+  }
+
+  .howWeWork__img {
+    object-fit: cover;
+  }
+
+  .howWeWork__btn:not(:last-child) {
+    margin-right: 0px;
+  }
+
+  .howWeWork__btn {
+    padding: 20px 28px;
+  }
+
+  .frequentlyAskedQuestions__descr {
+    max-width: 600px;
+  }
+
+  .footer__container {
+    justify-content: space-around;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .header__menu {
+    padding: 5px 45px;
+  }
+
+  .hero__descr {
+    padding: 162px 0 100px 41px;
+  }
+
+  .hero__headin {
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .hero__title {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 586px;
+  }
+
+  .aboutUs__container {
+    margin-bottom: 49px;
+  }
+
+  .project__left {
+    height: 650px;
+    background-position: -118px 0px;
+  }
+
+  .project__left-container {
+    padding: 34px 41px;
+  }
+
+  .project__left-descr {
+    margin-right: 40px;
+  }
+
+  .project__top,
+  .project__buttom {
+    padding: 33px 36px;
+    justify-content: flex-start;
+  }
+
+  .project__buttom {
+    padding: 34px 39px;
+    align-items: center;
+  }
+
+  .project__top-left {
+    max-width: 114px;
+    margin-right: 16px;
+  }
+
+  .project__title,
+  .project__descr-top {
+    width: 115%;
+  }
+
+  .howWeWork__container-btnTop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 46px;
+  }
+
+  .howWeWork__btnTop {
+    margin: 0;
+  }
+
+  .howWeWork__btnTop:not(:last-child) {
+    margin: 0;
+  }
+
+  .howWeWork__allConteiner {
+    flex-direction: column-reverse;
+  }
+
+  .howWeWork__container-left,
+  .howWeWork__container-right {
+    max-width: 100%;
+  }
+
+  .howWeWork__container-right {
+    height: 284px;
+    margin-bottom: 40px;
+  }
+
+  .howWeWork__descr {
+    max-width: 100%;
+    margin-bottom: 22px;
+  }
+
+  .howWeWork__btn:not(:last-child) {
+    margin-right: 29px;
+  }
+
+  .howWeWork__btn {
+    padding: 20px 38px;
+  }
+
+  .howWeWork__container {
+    margin-bottom: 50px;
+  }
+
+  .frequentlyAskedQuestions__container {
+    margin-bottom: 105px;
+  }
+
+  .footer__container {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 50px 0;
+    padding-bottom: 42px;
+  }
+
+  .footer__list {
+    display: none;
+  }
+
+  .footer__centr {
+    max-width: 100%;
+    margin-bottom: 49px;
+  }
+
+  .footer__title {
+    margin-bottom: 25px;
+  }
+
+  .frequentlyAskedQuestions__descr {
+    display: inline;
+    min-width: 350px;
+    max-width: 580px;
+  }
+}
+
+@media (max-width: 760px) {
+  .frequentlyAskedQuestions__descr {
+    max-width: 0px;
+  }
+}
+
+@media (max-width: 502px) {
+  .project__left-container {
+    flex-direction: column;
+  }
+
+  .frequentlyAskedQuestions__descr {
+    min-width: 168px;
+    font-size: 11px;
+  }
+
+  .howWeWork__title {
+    font-size: 30px;
+  }
+
+  .hero__headin {
+    font-size: 30px;
+  }
+
+  .hero__btn {
+    padding: 20px 14px;
+  }
+
+  .project__top,
+  .project__buttom {
+    flex-direction: column;
+  }
+
+  .project__top-right {
+    max-width: 100%;
+  }
+
+  .hero__container {
+    max-width: calc(100% - 30px);
+  }
+
+  .aboutUs__container {
+    max-width: calc(100% - 30px);
+  }
+
+  .project__container {
+    max-width: calc(100% - 30px);
+  }
+
+  .howWeWork__container {
+    max-width: calc(100% - 30px);
+  }
+
+  .frequentlyAskedQuestions__container {
+    max-width: calc(100% - 30px);
+  }
+
+  .footer__containerBtn {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__menu {
+    padding: 11px 10px;
+  }
+
+  .header__logo img {
+    width: 120px;
+  }
+
+  .header__container {
+    margin-bottom: 29px;
+  }
+
+  .hero__headin {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+
+  .hero__title {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 32px;
+  }
+
+  .hero__btn {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 13px 28px;
+    border-radius: 8px;
+  }
+
+  .hero__container {
+    height: 308px;
+    border-radius: 16px;
+  }
+
+  .hero__descr {
+    text-align: center;
+    padding: 60px 12px 0px 16px;
+  }
+
+  .hero__container {
+    background-image: url(../img/hero-320.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .descr {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .project__descr-top {
+    width: 100%;
+  }
+
+  .aboutUs__container {
+    margin-bottom: 14px;
+  }
+
+  .project__left {
+    background-image: none;
+    height: auto;
+    margin-bottom: 23px;
+  }
+
+  .project__320px {
+    display: block;
+    background-image: url("../img/hero-320.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 290px;
+    height: 200px;
+    border-radius: 16px;
+  }
+
+  .project__left-container {
+    background: none;
+  }
+
+  .project__left-descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000000;
+    margin-right: 0;
+    margin-bottom: 9px;
+  }
+
+  .project__left-container {
+    align-items: flex-start;
+    padding: 8px 0px;
+  }
+
+  .project__btn {
+    padding: 11px 42px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF9900;
+    border-radius: 8px;
+  }
+
+
+  .project__top,
+  .project__buttom {
+    padding: 0;
+    background: none;
+    border: 0;
+    align-items: flex-start;
+  }
+
+  .project__top {
+    margin-bottom: 27px;
+  }
+
+  .project__img {
+    max-width: 58%;
+  }
+
+  .project__title {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 22px;
+    width: 274px;
+    margin-bottom: 5px;
+  }
+
+  .project__container {
+    margin-bottom: 60px;
+  }
+
+  .howWeWork__title {
+    margin-bottom: 20px;
+  }
+
+  .howWeWork__btnTop {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .howWeWork__container-btnTop {
+    margin-bottom: 16px;
+  }
+
+  .howWeWork__img {
+    width: 290px;
+    height: 160px;
+    border-radius: 16px;
+  }
+
+  .howWeWork__container-right {
+    height: auto;
+    margin-bottom: 13px;
+  }
+
+  .howWeWork__title-h3 {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+  }
+
+  .howWeWork__btn {
+    padding: 12px 32px;
+    border-radius: 8px;
+  }
+
+  .howWeWork__btn:not(:last-child) {
+    margin-right: 3px;
+  }
+
+  .howWeWork__btn-right {
+    padding: 9px 23px;
+  }
+
+  .howWeWork__container {
+    margin-bottom: 57px;
+  }
+
+  .frequentlyAskedQuestions__descr {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    min-width: 214px;
+  }
+
+  .frequentlyAskedQuestions__title {
+    margin-bottom: 11px;
+  }
+
+  .frequentlyAskedQuestions__container {
+    margin-bottom: 55px;
+  }
+
+  .frequentlyAskedQuestions__icon {
+    background-repeat: no-repeat;
+    background-size: 65px 34px;
+  }
+
+  .footer__title {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+
+  .footer__container {
+    max-width: calc(100% - 30px);
+    padding-top: 33px;
+    padding-bottom: 16px;
+  }
+
+  .footer__containerForm {
+    width: 100%;
+  }
+
+  .footer__textarea {
+    margin-bottom: 25px;
+  }
+
+  .footer__btn {
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 15px;
+    width: 62%;
+    margin-bottom: 13px;
+  }
+
+  .footer__checkboxText {
+    padding-left: 5px;
+  }
+
+  .footer__centr {
+    min-width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #414141;
+    margin-bottom: 11px;
+  }
+
+  .footer__left {
+    margin: 0;
+    text-align: center;
+    min-width: 100%;
+  }
+
+  .footer__img {
+    height: 50px;
+    width: 131px;
+    margin-bottom: 0px;
+  }
+
+  .footer__socialcontainer {
+    justify-content: center;
+  }
+
+  .footer__svg {
+    width: 43px;
+  }
+
+  .footer__ok {
+    margin-right: 18px;
+  }
+}
